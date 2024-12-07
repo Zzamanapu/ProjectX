@@ -51,8 +51,9 @@ export default function CreateAccount() {
 
         <p className="my-3 text-gray-500 text-sm">Already Have an Account? <Link href="/" className="text-blue-500">Login</Link></p>
 
-        <Button onClick={ManageCreateAccout}>Sign in</Button>
+        <Button onClick={ManageCreateAccout}>Create Account</Button>
       </div>
     </div>
   );
 }
+ 

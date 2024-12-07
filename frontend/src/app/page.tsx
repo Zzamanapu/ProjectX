@@ -26,7 +26,7 @@ export default function Home() {
 
         <p className="my-3 text-gray-500 text-sm">Don't Have an Account? <Link href="/create-account" className="text-blue-500">Create Account</Link></p>
 
-        <Button variant={"secondary"} onClick={() => LoginHandle({ email, password })} >Sign in</Button>
+        <Button onClick={() => LoginHandle({ email, password })} >Sign in</Button>
       </div>
     </div>
   );
